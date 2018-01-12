@@ -1,1 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+	padding: 0;
+	margin: 0 auto;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+	padding: 20px;
+	margin: 0;
+}
+
+/* ---------- NAV BAR ---------- */
+
+nav {
+	position: sticky;
+	top: 0;
+
+	left: 0;
+	right: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+nav ul {
+	list-style-type: none; /*remove bullets*/
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/*change appearance of bar when hoovering text*/
+nav ul li a:hover {
+	background-color: #111;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+
+.footer-copyright {
+	color: gray;
+}
+
+/* ---------- OTHER ---------- */
+
+.logo-container {
+
+	background-color: white;
+}
+
+.logo {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container {
+	padding: 5% 10%;
+	margin-bottom: 120px; /*add margin to get spacing between text and footer when scrolled down*/
+}
